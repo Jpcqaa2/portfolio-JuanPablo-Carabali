@@ -1,14 +1,15 @@
 import Bee from "./World/Bee";
 import Tree from "./World/Tree";
+import Info from "./Info/Info";
+import React from 'react';
 
 
 const Experience = () => {
     return (
         <>
-            <ambientLight intensity={0.5} />
-            <directionalLight position={[10, 10, 5]} intensity={2} />
-            <Bee/>
-            <Tree/>
+            <Info name='Juan Pablo Carabali Quiroz' bio='systems engineering student'/>
+
+
 
         </>
     )
