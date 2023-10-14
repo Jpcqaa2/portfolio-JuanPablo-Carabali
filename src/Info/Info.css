@@ -1,0 +1,12 @@
+/* Estilos CSS para el componente Info */
+
+.info-container {
+    position: absolute;
+    z-index: 1;
+    top: 10px; /* Puedes ajustar la posición superior según tus necesidades */
+    left: 10px; /* Puedes ajustar la posición izquierda según tus necesidades */
+    background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para legibilidad */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
