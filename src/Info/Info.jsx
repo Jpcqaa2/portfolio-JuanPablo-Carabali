@@ -1,19 +1,14 @@
-//Componente de información que contiene mi nombre y mi biografia para mostrar junto a los modelos 3
-import './Info.css';
+import "./info.css"
 
-const Info = ({name, bio}) => {
-    
-   
-
+const Info = ({ name, biography }) => {
     return (
-        <div className='info-container'>
-            <div className='card-info'>
-                <h1 className='name'>{name}</h1>
-                <span className='bio'>{bio}</span>
+        <div className="container-info">
+            <div className="card-info">
+                <h1 className="name">{name}</h1>
+                <span className="biography">{biography}</span>
             </div>
         </div>
+    )
+}
 
-            )
-    }
-
-        export default Info;
+export default Info;
