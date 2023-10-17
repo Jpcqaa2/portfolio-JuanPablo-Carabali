@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 
 const Shifu =() =>{
     const shifuRef = useRef();
-    const shifuModel = useGLTF("/assets/models/shifu/scene.GLTF")
+    const shifuModel = useGLTF("/assets/models/Shifu/scene.GLTF")
     const {animations} = shifuModel;
     console.log(shifuModel)
     const {actions} = useAnimations(animations, shifuRef);
@@ -22,4 +22,4 @@ const Shifu =() =>{
 }
 
 export default Shifu;
-useGLTF.preload("/assets/models/shifu/scene.GLTF")
+useGLTF.preload("/assets/models/Shifu/scene.GLTF")
