@@ -2,6 +2,7 @@ import { FirstPersonControls, OrbitControls, PointerLockControls } from "@react-
 import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 import Shifu from "./World/Shifu";
+
 import {Floor} from "./World/Floor";
 
 const Experience = () => {
